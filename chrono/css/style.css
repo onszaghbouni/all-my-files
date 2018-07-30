@@ -1,0 +1,74 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background-image: url("../res/pic2.jpg");
+}
+.all{
+
+	height: 600px;
+	width: 700px;
+	background-color: grey;
+	opacity: 0.4;
+}
+.top{
+width: 700px;
+height: 150px;
+border: 2px solid black;
+
+}
+.output{
+
+	font-size: 85px;
+	padding-top: 20px;
+}
+.left {
+background-color: grey;
+float: left;
+width: 30%;
+height: 450px;
+border: 2px solid black;
+}
+.right {
+	background-color: grey;
+	float: right;
+	width: 69%;
+	height: 450px;
+	border: 2px solid black;
+}
+.center{
+	display: flex;
+}
+.button {
+background-color: #34526f;
+border: none;
+width: 150px;
+height: 35px;
+margin:20px;
+
+}
+
+.button:hover {
+	background-color: red;
+	color: white;
+	transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
